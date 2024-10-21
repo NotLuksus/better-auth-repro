@@ -1,0 +1,20 @@
+{
+  "name": "db",
+  "type": "module",
+  "scripts": {
+    "db": "drizzle-kit",
+    "db:studio": "drizzle-kit studio"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "@types/pg": "^8.11.10",
+    "dotenv": "^16.4.5",
+    "drizzle-kit": "^0.26.2",
+    "pg": "^8.13.0"
+  },
+  "peerDependencies": {
+    "drizzle-orm": "^0.35.2"
+  }
+}
